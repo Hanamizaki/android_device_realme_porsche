@@ -163,6 +163,9 @@ PRODUCT_SOONG_NAMESPACES += \
 PRODUCT_PACKAGES += \
     android.hardware.neuralnetworks@1.3.vendor
 
+DEVICE_PACKAGE_OVERLAYS += \
+    $(LOCAL_PATH)/overlay-something
+
 # NFC
 PRODUCT_PACKAGES += \
     android.hardware.secure_element@1.2.vendor
