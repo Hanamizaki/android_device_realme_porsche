@@ -1156,8 +1156,6 @@ odm/lib64/libFDClite.so|6288152be37c751bc7c159bfa8aeeddbacf398da
 vendor/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so|74cb9bfeeb96df0b707654d662042133ffb23c1a
 
 # Charging
-vendor/bin/init.qti.chg_policy.sh
-vendor/etc/charger_fstab.qti
 vendor/etc/charger_fw_fstab.qti
 
 # Config Store
