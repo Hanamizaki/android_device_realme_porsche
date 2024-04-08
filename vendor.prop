@@ -52,6 +52,10 @@ persist.sys.fuse.passthrough.enable=true
 # FRP
 ro.frp.pst=/dev/block/bootdevice/by-name/frp
 
+# HWUI
+debug.hwui.use_hint_manager=true
+debug.hwui.target_cpu_time_percent=30
+
 # qteeconnector settings
 persist.vendor.qteeconnector.retrying_interval=30
 persist.vendor.qteeconnector.retrying_timeout=2000
